@@ -1,0 +1,2 @@
+# Complex Arithmetic
+Define a type for complex numbers that includes values for the real and imaginary parts. Then write a program that takes two complex numbers and three signals for multiplication, addition, and subtraction operations as inputs. The program performs the desired operation on the two given complex numbers and outputs the result. Only one of the operator signals will be equal to 1 at any given time.
