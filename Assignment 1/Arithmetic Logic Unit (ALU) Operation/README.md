@@ -1,0 +1,2 @@
+# Arithmetic Logic Unit (ALU) Operation
+ Design an Arithmetic Logic Unit (ALU) entity named "ALU" that performs addition, subtraction, bitwise AND, and bitwise OR operations on 2-bit inputs A and B based on the control bits provided as input.
