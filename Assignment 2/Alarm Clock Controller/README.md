@@ -1,0 +1,5 @@
+# Alarm Clock Controller  
+
+In this problem, you are required to design a circuit for an alarm clock. The circuit has a clock signal (clk) that indicates the passage of a second. To display the time, the circuit will have 8 bits for the minutes, with 4 bits representing the least significant digit and 4 bits representing the most significant digit. For the hours, you will need 4 bits for the least significant digit and 2 bits for the most significant digit. The reset signal sets all the minute and hour values to zero.
+
+If the set_clock signal is set to 1, you can input your desired time and set it accordingly. Similarly, if the set_alarm signal is set to 1, you can set the alarm time. Whenever the current time matches the set alarm time, the alarm_on signal will be set to 1 and will remain on until the stop_alarm signal is triggered. Implement this problem's circuit using the VHDL language.
