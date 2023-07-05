@@ -3,7 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 USE ieee.numeric_std.ALL;
 use IEEE.std_logic_unsigned.all;
 
-entity q2 is
+entity Binary_Subsequence_Transformer is
     generic (
         n : integer := 10
     );
@@ -14,7 +14,7 @@ entity q2 is
     );
 end q2;
 
-architecture Behavioral of q2 is
+architecture Behavioral of Binary_Subsequence_Transformer is
     TYPE state1 IS (S0, S1, S2, S3, S4, S5, S6, S7); 
     TYPE state2 IS (S0, S1, S2, S3, S4, S5);
     SIGNAL state_1: state1;

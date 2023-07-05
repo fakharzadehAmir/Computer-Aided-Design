@@ -3,6 +3,9 @@ Design a circuit that takes an n-bit binary input and determines the index posit
 
 ### Example:  
 
-**Input:** 001111000000111110001  
+**Input:**  
+001111000000111110001  
 
-**Output:**
+**Output:**  
+111 (7) - 1011 (12)  →  Start and End Index of First zero Block After First One Block
+10010 (18) - 10100 (20)  →  Start and End Index of Last zero Block
