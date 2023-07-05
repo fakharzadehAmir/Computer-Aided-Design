@@ -1,14 +1,14 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity q2_tb is
-end q2_tb;
+entity Binary_Subsequence_Transformer_tb is
+end Binary_Subsequence_Transformer_tb;
 
-architecture Behavioral of q2_tb is
+architecture Behavioral of Binary_Subsequence_Transformer_tb is
     constant CLK_PERIOD : time := 20 ps;  -- Define the clock period
     
     -- Component declaration
-    component q2
+    component Binary_Subsequence_Transformer
         generic (
             n : integer := 10
         );
@@ -26,7 +26,7 @@ architecture Behavioral of q2_tb is
     signal output_tb: std_logic_vector(9 downto 0);
 begin
     -- Instantiate the q2 component
-    uut: q2
+    uut: Binary_Subsequence_Transformer
         generic map (
             n => 10
         )
